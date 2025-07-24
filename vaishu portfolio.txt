@@ -1,0 +1,165 @@
+
+Vaishnavi Vaishu <vaishuvaishu1666@gmail.com>
+Sun 18 May, 20:07
+to vaishnavidurairaj1606
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale="1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        body{
+            margin:0px;
+        }
+        .main1 {
+            margin:0px;
+        }
+        .main1 {
+            width: 100vw;
+            height: 10vh;
+            background-color: black;
+            position: relative;
+        }
+        .main11{
+            position:absolute;
+            top:50%;
+            left:50%;
+            color:white;
+            font-size:xx-large;
+            transform: translate(-50%,-50%);
+        }
+        .main2{
+            width: 100vw;
+            height: 80vh;
+            position: relative;
+            font-size: xx-large;
+        }
+        .main21{
+            position: absolute;
+            top:30%;
+            height: 50%;
+            font-size: medium;
+            left: 10%;
+            color: azure;
+        }
+        .main22{
+            position: absolute;
+            top:70%;
+            font-size: larger;
+            left: 15%;
+        }
+        .main22 button {
+            width:100px;
+            font-size: medium;
+            height:30%;
+        }
+        #im1{
+            width: 100%;
+            height: 100%;
+            right: 10%;
+            top: 20%;
+        }
+        .main23{
+            position: absolute;
+            right:45%;
+            top:10%;
+        }
+        .main23 img{
+            position: absolute;
+            height: 500px;
+            width: 400px;
+            border-radius: 250px;
+        }
+        .main24{
+            position: absolute;
+            right:300px;
+            top:300px;
+            display: none;
+            color: aqua;
+            font-size: large;
+        }
+        .main3{
+            width: 100vw;
+            height: 10vh;
+            background-color:black;
+        }
+        .sub31{
+            position:absolute;
+            top:20px;
+            right:100px;
+            color:white;
+            font-size:large;
+        }
+        .sub31 td{
+            padding-right:50px;
+        }
+        .data{
+            width:30px;
+            height:10px;
+            border-radius:5px;
+            text-align:center;
+            padding:3px;
+            transition:all 0.3ms ease;
+        }
+        .data:hover{
+            background-color:rgba(255,255,255,0.1);
+            transform:scale(1.2);
+        }
+    </style>
+    <body>
+        <div class="main1">
+            <div class="main11">
+               <p>VAISHNAVI DURAIRAJ</p>
+            </div>
+
+        </div>
+        <div class="main2">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2I0AePYE2qW47JeM6j4YQsHfZ3Hj17MGkTzLqnVmf_-jUn8UfmGW6DWvcWn2mcwSpY8&usqp=CAU"alt=""id="im1">
+             <div class ="main21">
+                <h1 id="h1">
+                    HII THERE;
+                </h1>
+                <h2 id="h2">THIS IS VAISHNAVI DURAIRAJ</h2>
+                <h3 id="h3">PLACEMENT SECRETARY</h3>
+                <h4 id="h4">MCW KODAMBAKKAM
+                </h4>
+             </div>
+             <div class="main22">
+                <button id="b"><b>About</b></button>
+             </div>
+             <div class="main23" id="visible">
+                <img src="C:\Users\SRI RAM D\OneDrive\Attachments\project in fsd\profile.jpg"alt="">
+             </div>
+             <div class="main24" id="hidden">
+                <h3 id="h1">This is hidden</h3>
+                <h3 id="h2">
+                    appear only when event occurs
+                </h3>
+             </div>
+        </div>
+        <script>
+            document.getElementById('b').onclick=function(){
+                document.getElementById('h1').innerHTML="III BSC ";
+                document.getElementById('h2').innerHTML="COMPUTER SCIENCE";
+                document.getElementById('h3').innerHTML="2023-2026";
+                document.getElementById('visible').style.display='none';
+                document.getElementById('hidden').style.display='block';
+            }
+        </script>
+        <div class="main3">
+            <div class="sub31">
+                <table>
+                <tr>
+                <td class="data">Home</td>
+                <td class="data">About</td>
+                <td class="data">Login</td>
+                <td class="data">Contact</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
